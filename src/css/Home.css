@@ -1,0 +1,22 @@
+#homeid {
+    min-height: 100vh;
+}
+
+#menu {
+    float: left;
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+#download {
+    font-style: italic;
+}
+
+#picture {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-right: 12vw;
+}

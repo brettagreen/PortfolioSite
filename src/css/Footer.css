@@ -1,0 +1,17 @@
+#footer {
+	float: left;
+	clear: left;
+	width: 100%;
+	background-color: rgb(250, 245, 245, .1);
+    position: fixed;
+    bottom: 0;
+    padding: 2rem;
+}
+
+html[xmlns] .footer {
+    display: block;
+}
+
+.FooterAddress {
+    text-align: left;
+}

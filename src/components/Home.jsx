@@ -1,0 +1,43 @@
+import '../css/Home.css';
+import '../css/Footer.css';
+import { useNavigate } from 'react-router-dom';
+
+function Home() {
+
+    const nav = useNavigate();
+
+    function showResume() {
+        nav('/resume');
+    }
+
+	return (
+		<div id="homeid">
+
+			<aside id="menu">
+                <span>Work</span><br />
+                <a href="https://thetigerlilly.online" target="_blank">The Tigerlilly Online</a><br />
+                <a href="https://copiarts-frontend.onrender.com" target="_blank">Cornucopia</a>
+                <hr />
+                <div id="show" onClick={showResume}>view resume</div>
+                <a id="download" href="/public/docs/resume.odt" >download resume</a>
+			</aside>
+
+            <section>
+                <img id="picture" src="/images/me.jpg" alt="your glorious admin" />
+            </section>
+
+
+            <footer id="footer">
+                <div>
+                    <address className="FooterAddress">
+                        Brett Green © 2025<br />
+                        email: <a id="email" href="mailto:contact@brettalangreen@proton.me">brettalangreen (at) proton (dot) me</a><br />
+                    </address>
+                </div>
+            </footer>
+
+		</div>
+	)
+}
+
+export default Home;
