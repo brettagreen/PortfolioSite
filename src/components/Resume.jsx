@@ -3,7 +3,7 @@ import '../css/Resume.css';
 function Resume() {
     return(
         <div id="resumedisplay">
-            <p><strong>Brett Green</strong></p>
+            <p>Brett Green</p>
             <p>117 Jackson St., Madison, WI 53704, (608) 692-2737,
             brettalangreen@proton.me</p>
             <p><strong>Github</strong>: https://github.com/brettagreen
@@ -11,18 +11,19 @@ function Resume() {
             <blockquote>
 
             </blockquote>
-            <p><strong>Technical Skills
-            --------------------------------------------------------------   ----------------------------------------</strong></p>
+            <p>Technical Skills
+            ------------------------------------------------------------------------------------------------------</p>
             <p>• JavaScript +ES6 • HTML/CSS • ReactJS • Material UI • Node.js •
-            Express.js  • Webpack • Jest </p>
-            <p>• PostgreSQL • Git • AWS • Restful API • Linux CLI</p>
-            <p><strong>Education
-            -------------------------------------------------------------------------------------------------------------</strong></p>
-            <p><strong>Madison Area Technical College</strong></p>
+            Express.js • Jest </p>
+            <p>• Responsive design • PostgreSQL • Git • AWS • Restful API • Linux
+            CLI</p>
+            <p>Education
+            -------------------------------------------------------------------------------------------------------------</p>
+            <p>Madison Area Technical College</p>
             <p>IT-Web Analyst/Programmer </p>
-            <p><strong>University of Wisconsin-Milwaukee </strong></p>
+            <p>University of Wisconsin-Milwaukee </p>
             <p>Master of Arts in History </p>
-            <p><strong>University of Wisconsin-Madison</strong></p>
+            <p>University of Wisconsin-Madison</p>
             <p>Bachelor of Arts in Psychology</p>
             <p>
             <strong>Other</strong>-----------------------------------------------------------------------------------------------------------------</p>
@@ -38,19 +39,38 @@ function Resume() {
             SQL, PostgreSQL, Flask, Node, Express, Data Structures and
             Algorithms.</li>
             </ul>
+            <p><em>The Tigerlilly Online</em><strong> Full Stack Developer
+            </strong><em>Jan. 2024 – present</em></p>
+            <ul>
+            <li>Onion-like humor journal</li>
+            <li>Emphasis on API data model, leveraging lessons learned from
+            Springboard coursework.</li>
+            <li>Emphasis on documentation with JSDoc and testing with Jest testing
+            library.</li>
+            <li>Hosted on AWS to gain familiarity with that platform.</li>
+            </ul>
             <blockquote>
 
             </blockquote>
             <p><strong>Work Experience</strong>
             ---------------------------------------------------------------------------------------------------</p>
+            <p><em>Cornucopia</em> <strong>Full Stack Developer</strong> Sep<em>.
+            2024 – present</em></p>
+            <ul>
+            <li>Re-design website for local non-profit arts center. </li>
+            <li>Utilize skills learned from Springboard and other projects to make
+            easy to navigate, responsive website.</li>
+            <li>Emphasis on clean, readable code with good documentation.</li>
+            </ul>
+            <p><em></em></p>
             <p><em>WIS Intl.</em> <strong>Inventory Auditor</strong> Sep<em>. 2022 –
-            present</em></p>
+            Jan. 2025</em></p>
             <ul>
             <li>Count and record merchandise inventory or other product for a
             variety of both commercial and non-commercial businesses. </li>
             </ul>
             <p><em>Nelnet Diversified Solutions <strong>IT Infrastructure Engineer
-            </strong>Jul. 2015 – present</em></p>
+            </strong>Jul. 2015 – Jun. 2022</em></p>
             <ul>
             <li>Administer and engineer enterprise infrastructure alerting solution,
             integrating with PagerDuty and Service Now ticketing system. Solution
@@ -63,28 +83,6 @@ function Resume() {
             <li>Powershell solutions for various auditing requirements. Allow
             auditors to run scrips and reports themselves, saving time for my
             manager.</li>
-            </ul>
-            <p><em>Victory Lap</em> <strong>Software Developer</strong> <em>Feb.
-            2015 – Jul. 2015</em></p>
-            <ul>
-            <li>Work with a core team of developers on a HTML5/JavaScript mobile
-            social networking application start-up.</li>
-            <li>Develop and write code for interactive messaging, photo viewing,
-            navigation logic, and numerous other components of the application.</li>
-            <li>Use the GitHub version control system to effectively collaborate
-            with team members and ensure code integrity.</li>
-            </ul>
-            <blockquote>
-
-            </blockquote>
-            <p><em>Madison College</em> <strong>Peer Tutor</strong> <em>Jan. 2013 –
-            May 2014</em></p>
-            <ul>
-            <li>Assist students with coursework on a walk-in basis.</li>
-            <li>Encourage success through positive feedback and attention to
-            individual learning styles.</li>
-            <li>Subjects tutored include computer programming, english, writing,
-            philosophy, and psychology.</li>
             </ul>
             <blockquote>
             </blockquote>
