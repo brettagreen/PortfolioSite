@@ -18,5 +18,21 @@
     height: 230px;
     border-radius: 50%;
     margin-top: 2rem;
-    margin-right: 12vw;
+    margin-right: 10vw;
+    margin-left: .5rem;
+}
+
+#mobile {
+    display: none;
+}
+
+@media (width <= 700px) {
+
+    #mobile {
+        display: block;
+    }
+
+    #desktop {
+        display: none;
+    }
 }
