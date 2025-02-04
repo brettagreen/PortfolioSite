@@ -10,6 +10,10 @@ function Home() {
         nav('/resume');
     }
 
+    function downloadResume() {
+        
+    }
+
 	return (
 		<div id="homeid">
 
@@ -20,7 +24,7 @@ function Home() {
                 <a href="https://copiarts-frontend.onrender.com" target="_blank">Cornucopia</a>
                 <hr />
                 <div id="show" onClick={showResume}>view resume</div>
-                <a id="download" href="/public/docs/resume.odt" >download resume</a>
+                <a id="download" href="/docs/resume.odt" >download resume</a>
 			</aside>
 
             <section>
@@ -39,7 +43,7 @@ function Home() {
                 <a href="https://copiarts-frontend.onrender.com" target="_blank">Cornucopia</a>
                 <hr />
                 <div id="show" onClick={showResume}>view resume</div>
-                <a id="download" href="/public/docs/resume.odt" >download resume</a>
+                <a id="download" href="/docs/resume.odt" >download resume</a>
 			</aside>
         </div>
 
