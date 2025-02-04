@@ -7,7 +7,7 @@ function Resume() {
             <p>117 Jackson St., Madison, WI 53704, (608) 692-2737,
             brettalangreen@proton.me</p>
             <p><strong>Github</strong>: https://github.com/brettagreen
-            <strong>Site</strong>: https://brettalangreen.com</p>
+            &nbsp;<strong>Site</strong>: https://brettalangreen.com</p>
             <blockquote>
 
             </blockquote>
@@ -28,7 +28,7 @@ function Resume() {
             <p>
             <strong>Other</strong>-----------------------------------------------------------------------------------------------------------------</p>
             <p><em>Springboard</em><strong> Software Engineering Student
-            </strong><em>Jun. 2022 – Sep. 2023</em></p>
+            </strong>&nbsp;<em>Jun. 2022 – Sep. 2023</em></p>
             <ul>
             <li>An 800-hour course covers key aspects of front-end web development,
             back-end web development, databases, and data structures and algorithms.
@@ -40,7 +40,7 @@ function Resume() {
             Algorithms.</li>
             </ul>
             <p><em>The Tigerlilly Online</em><strong> Full Stack Developer
-            </strong><em>Jan. 2024 – present</em></p>
+            </strong>&nbsp;<em>Jan. 2024 – present</em></p>
             <ul>
             <li>Onion-like humor journal</li>
             <li>Emphasis on API data model, leveraging lessons learned from
@@ -70,7 +70,7 @@ function Resume() {
             variety of both commercial and non-commercial businesses. </li>
             </ul>
             <p><em>Nelnet Diversified Solutions <strong>IT Infrastructure Engineer
-            </strong>Jul. 2015 – Jun. 2022</em></p>
+            &nbsp;</strong>Jul. 2015 – Jun. 2022</em></p>
             <ul>
             <li>Administer and engineer enterprise infrastructure alerting solution,
             integrating with PagerDuty and Service Now ticketing system. Solution
