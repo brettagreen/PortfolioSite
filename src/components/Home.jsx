@@ -1,7 +1,14 @@
 import '../css/Home.css';
 import '../css/Footer.css';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+
+    const nav = useNavigate();
+
+    function showResume() {
+        nav('/resume');
+    }
 
 	return (
 		<div id="homeid">
@@ -12,7 +19,7 @@ function Home() {
                 <a href="https://thetigerlilly.online" target="_blank">The Tigerlilly Online</a><br />
                 <a href="https://copiarts-frontend.onrender.com" target="_blank">Cornucopia</a>
                 <hr />
-                <a href="/resume">view resume</a><br />
+                <div id="show" onClick={showResume}>view resume</div>
                 <a id="download" href="/public/docs/resume.odt" >download resume</a>
 			</aside>
 
