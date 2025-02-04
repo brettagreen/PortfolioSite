@@ -15,12 +15,12 @@ function Home() {
 
             <div id="desktop">
                 <aside id="menu">
-                    <span>Work</span><br />
                     <a href="https://thetigerlilly.online" target="_blank">The Tigerlilly Online</a><br />
                     <a href="https://copiarts-frontend.onrender.com" target="_blank">Cornucopia</a>
                     <hr />
                     <div id="show" onClick={showResume}>view resume</div>
-                    <a id="download" href="/docs/resume.odt" >download resume</a>
+                    <a id="download" href="/docs/resume.odt" >download resume</a><br />
+                    <a href="https://github.com/brettagreen">github</a>
                 </aside>
 
                 <section>
@@ -38,7 +38,8 @@ function Home() {
                     <a href="https://copiarts-frontend.onrender.com" target="_blank">Cornucopia</a>
                     <hr />
                     <div id="show" onClick={showResume}>view resume</div>
-                    <a id="download" href="/docs/resume.odt" >download resume</a>
+                    <a id="download" href="/docs/resume.odt" >download resume</a><br />
+                    <a href="https://github.com/brettagreen">github</a>
                 </aside>
             </div>
 
