@@ -10,42 +10,38 @@ function Home() {
         nav('/resume');
     }
 
-    function downloadResume() {
-        
-    }
-
 	return (
 		<div id="homeid">
 
-        <div id="desktop">
-            <aside id="menu">
-                <span>Work</span><br />
-                <a href="https://thetigerlilly.online" target="_blank">The Tigerlilly Online</a><br />
-                <a href="https://copiarts-frontend.onrender.com" target="_blank">Cornucopia</a>
-                <hr />
-                <div id="show" onClick={showResume}>view resume</div>
-                <a id="download" href="/docs/resume.odt" >download resume</a>
-			</aside>
+            <div id="desktop">
+                <aside id="menu">
+                    <span>Work</span><br />
+                    <a href="https://thetigerlilly.online" target="_blank">The Tigerlilly Online</a><br />
+                    <a href="https://copiarts-frontend.onrender.com" target="_blank">Cornucopia</a>
+                    <hr />
+                    <div id="show" onClick={showResume}>view resume</div>
+                    <a id="download" href="/docs/resume.odt" >download resume</a>
+                </aside>
 
-            <section>
-                <img id="picture" src="/images/me.jpg" alt="your glorious admin" />
-            </section>
-        </div>
+                <section>
+                    <img id="picture" src="/images/me.jpg" alt="your glorious admin" />
+                </section>
+            </div>
 
-        <div id="mobile">
-            <section>
-                <img id="picture" src="/images/me.jpg" alt="your glorious admin" />
-            </section>
+            <div id="mobile">
+                <section>
+                    <img id="picture" src="/images/me.jpg" alt="your glorious admin" />
+                </section>
 
-            <aside id="menu">
-                <span>Work</span><br />
-                <a href="https://thetigerlilly.online" target="_blank">The Tigerlilly Online</a><br />
-                <a href="https://copiarts-frontend.onrender.com" target="_blank">Cornucopia</a>
-                <hr />
-                <div id="show" onClick={showResume}>view resume</div>
-                <a id="download" href="/docs/resume.odt" >download resume</a>
-			</aside>
-        </div>
+                <aside id="menu">
+                    <span>Work</span><br />
+                    <a href="https://thetigerlilly.online" target="_blank">The Tigerlilly Online</a><br />
+                    <a href="https://copiarts-frontend.onrender.com" target="_blank">Cornucopia</a>
+                    <hr />
+                    <div id="show" onClick={showResume}>view resume</div>
+                    <a id="download" href="/docs/resume.odt" >download resume</a>
+                </aside>
+            </div>
 
             <footer id="footer">
                 <div>
