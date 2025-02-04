@@ -34,7 +34,6 @@ function Home() {
                 </section>
 
                 <aside id="menu">
-                    <span>Work</span><br />
                     <a href="https://thetigerlilly.online" target="_blank">The Tigerlilly Online</a><br />
                     <a href="https://copiarts-frontend.onrender.com" target="_blank">Cornucopia</a>
                     <hr />
