@@ -15,7 +15,7 @@ function Home() {
 
             <div id="desktop">
                 <aside id="menu">
-                    <a href="https://thetigerlilly.online" target="_blank">The Tigerlilly Online</a> - <i>temporarily down. rehosting.</i><br />
+                    <a href="https://tigerlilly-frontend.onrender.com" target="_blank">The Tigerlilly Online</a><br />
                     <a href="https://copiarts-frontend.onrender.com" target="_blank">Cornucopia</a>
                     <hr />
                     <div id="show" onClick={showResume}>view resume</div>
